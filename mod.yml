@@ -1,0 +1,7 @@
+title: UnPacifist
+description: This mod will gradually slow down the music of the game as you levelup, resembling a genocide run of Undertale/Deltarune.
+assets:
+- name: scripts/unpacifist.lua
+  method: copy
+  source:
+  - name: unpacifist.lua
