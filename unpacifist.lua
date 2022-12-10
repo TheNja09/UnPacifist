@@ -34,6 +34,6 @@ function Events(M,B,E) --Check for Map, Btl, and Evt
 end
 
 function Cheats()
-WriteFloat(0xFFFFFFFFFFB4C3DA, ReadByte(Save+0x24FF)*-0.0055+1.0055 -- Game Audio
-WriteFloat(0xFFFFFFFFFFAD790C, math.floor(ReadByte(Save+0x24FF)*0.00538+0.00638) -- Voice Audio
+	WriteFloat(0xFFFFFFFFFFB4C3DA, ReadByte(Save+0x24FF)*-0.0051+1.0051) -- Game Audio
+	WriteFloat(0xFFFFFFFFFFAD790C, 1/ReadFloat(0xFFFFFFFFFFB4C3DA)) -- Voice Audio
 end
