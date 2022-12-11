@@ -16,6 +16,12 @@
     when you are at half health or less.
 
     Equip more to increase the effect.'
+- id: 0x456E
+  en: '{:width 90}The character´s current LOVE. Values for
+
+    attributes such as Strength, Magic, Defense,
+
+    and AP will increase when leveling up.'
 - id: 0x3BF0
   en: 'No Execution'
 - id: 0x3BF1
