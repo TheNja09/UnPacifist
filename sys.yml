@@ -26,7 +26,7 @@
   en: 'No Execution'
 - id: 0x3BF1
   en: 'Disables the gaining of Execution Points.'
-- id: 0x3BF1
+- id: 0x3E39
   en: 'Increases the amount of Execution Points
 
     gained by {:color #F0F00080}100%{:reset} when killing
