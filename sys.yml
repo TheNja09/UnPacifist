@@ -1,0 +1,44 @@
+- id: 0x39FC
+  en: 'LOVE'
+- id: 0x4559
+  en: 'LOVE'
+- id: 0x455B
+  en: 'Next LOVE'
+- id: 0x4D96
+  en: 'LOVE'
+- id: 0x455A
+  en: '{:width 92}Execution'
+- id: 0x3BEA
+  en: 'Execution Boost'
+- id: 0x3BEB
+  en: 'Increases Execution Points gained by {:color #F0F00080}100%{:reset}
+
+    when you are at half health or less.
+
+    Equip more to increase the effect.'
+- id: 0x3BF0
+  en: 'No Execution'
+- id: 0x3BF1
+  en: 'Disables the gaining of Execution Points.'
+- id: 0x3BF1
+  en: 'Increases the amount of Execution Points
+
+    gained by {:color #F0F00080}100%{:reset} when killing
+
+    an enemy at a critical moment.'
+- id: 0x4E38
+  en: 'A weapon of extraordinary magic
+
+    and great strength.
+
+    Disables the gaining of Execution Points.'
+- id: 0x456F
+  en: 'Total amount of Execution Points earned.
+
+    Execution Points are earned when enemies
+
+    are killed.'
+- id: 0x4570
+  en: 'Exeuction Points needed to reach
+
+   the next LOVE.'
