@@ -1,3 +1,4 @@
+CurrentLevel = 0
 function _OnFrame()
 	World = ReadByte(Now + 0x00)
 	Room = ReadByte(Now + 0x01)
@@ -34,8 +35,9 @@ function Events(M,B,E) --Check for Map, Btl, and Evt
 end
 
 function Cheats()
-	if ReadFloat(0xFFFFFFFFFFB4C3DA) == 1 and ReadByte(Save+0x24FF) ~= 1 then
+	if ReadByte(Save+0x24FF) ~= CurrentLevel then
 	WriteFloat(0xFFFFFFFFFFB4C3DA, ReadByte(Save+0x24FF)*-0.0051+1.0051) -- Game Audio
 	WriteFloat(0xFFFFFFFFFFAD790C, 1/ReadFloat(0xFFFFFFFFFFB4C3DA)) -- Voice Audio
+	CurrentLevel = ReadByte(Save+0x24FF)
 	end
 end
